@@ -300,6 +300,9 @@ Known issues
     adapter for SQLite3]( https://github.com/mvz/memory_test_fix ) or by using
     different database software (such as MySQL) for your test environment.
 
+  * SQLite3 raises "cannot start a transaction within a transaction".  You can work around this by using an [in-memory
+    adapter for SQLite3]( https://github.com/mvz/memory_test_fix )
+
 ------------------------------------------------------------------------------
 License
 ------------------------------------------------------------------------------
